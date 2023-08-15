@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $message = $_POST['messages'];
 
     $mailTo = "mo@regalstay.co.uk";
     $headers = "From: ".$email;

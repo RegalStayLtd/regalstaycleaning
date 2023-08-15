@@ -454,7 +454,9 @@
             {
               name: $("#name").val(),
               email: $("#email").val(),
+
               phone: $("#phone").val(),
+              subject: $("#subject").val(),
               comments: $("#comments").val(),
             },
             function (data) {
